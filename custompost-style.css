@@ -1,0 +1,50 @@
+/* 
+    Document   : style
+    Created on : 19 Sep, 2013, 6:16:52 PM
+    Author     : Sourav Mondal
+    Description: custom post taxonomy plugin
+    Version: 1.0.0
+*/
+.create_custom_taxonomy , .create_custom_post {
+    background: #E8E8E8;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.clear{
+    clear: both;
+}
+#main_container_cptp label{
+    font-weight: bold;
+    color: blue;
+    height: 30px;
+}
+#main_container_cptp  input,select{
+    padding: 2px;
+    background: #E3E3E3;
+    border: 1px solid #3B63D6;
+    cursor: pointer;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+}
+#main_container_cptp  input:hover{
+    background: turquoise;
+}
+#main_container_cptp table{
+    border: 2px solid #A2CBE4;
+    width: 100%;
+    border-radius: 4px 4px 4px 4px;
+}
+.msg{
+    color: green;
+    font-weight: bold;
+}
+.authinfo{
+    color: #006505;
+    font-size: 10px;
+    
+}
